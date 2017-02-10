@@ -31,15 +31,6 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ax7-XJ-G5O" id="YhN-mr-o5A">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="198"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gw-Ym-hyf">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                    <connections>
-                                                        <segue destination="fQ1-WY-NOD" kind="embed" id="9Eo-rd-ZB7"/>
-                                                    </connections>
-                                                </containerView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.87448171829999999" green="0.96878274860000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
@@ -60,32 +51,6 @@
             </objects>
             <point key="canvasLocation" x="861.60000000000002" y="-559.07046476761627"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="q8Y-kQ-Rmk">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="fQ1-WY-NOD" customClass="PageViewController" customModule="WowIHaveToWatchThis" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="77f-Y3-XsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1734" y="-560"/>
-        </scene>
-        <!--First-->
-        <scene sceneID="gXf-9P-c3F">
-            <objects>
-                <viewController storyboardIdentifier="First" title="First" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pNO-z4-R8E" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aaa-3p-Mk4"/>
-                        <viewControllerLayoutGuide type="bottom" id="LqC-JG-yWi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wTP-Fx-bX9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.87448171829999999" green="0.96878274860000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y9Q-ym-bj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1734" y="-112"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="n7T-qJ-iwi">
             <objects>
@@ -103,42 +68,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3t-8E-wH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="-559.07046476761627"/>
-        </scene>
-        <!--Second-->
-        <scene sceneID="4sW-Wj-PNj">
-            <objects>
-                <viewController storyboardIdentifier="Second" title="Second" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EXU-Q0-1cb" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="93s-Qg-kcX"/>
-                        <viewControllerLayoutGuide type="bottom" id="hIX-kE-26x"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5K7-A2-wbf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98132258650000004" green="0.92648046409999996" blue="0.74276820809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GhS-km-00E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1954" y="-113"/>
-        </scene>
-        <!--Third-->
-        <scene sceneID="dbp-Gk-Q5a">
-            <objects>
-                <viewController storyboardIdentifier="Third" title="Third" useStoryboardIdentifierAsRestorationIdentifier="YES" id="c5D-B0-CTb" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mYO-WQ-meP"/>
-                        <viewControllerLayoutGuide type="bottom" id="Jbc-DS-X97"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FYp-nB-2xV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.85939634788602781" green="1" blue="0.78178733150903923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IZT-Uy-MZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2442" y="-113"/>
         </scene>
     </scenes>
 </document>
